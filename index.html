@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>Slider</title>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./css/style.css"/>
+    <script type="text/javascript" src="./js/common.js"></script>
+</head>
+<body>
+
+<h1>Slider</h1>
+<div id="slider">
+    <a href="#" class="next">>></a>
+    <a href="#" class="prev"><</a>
+    <ul>
+        <li data-des="1" class="active">SLIDE 1</li>
+        <li data-des="2" style="background: #aaa;">SLIDE 2</li>
+        <li data-des="3" >SLIDE 3</li>
+        <li data-des="4" style="background: #aaa;">SLIDE 4</li>
+    </ul>
+</div>
+
+<div class="slider_option">
+    <div class="imageDes">Image 1</div>
+    <input type="checkbox" id="checkbox">
+    <label for="checkbox">Autoplay Slider</label>
+    <br>
+    <input type="button" id="buttonplay" class="button" value="Play Slider">
+    <input type="button" id="buttonstop" class="button" value="Stop Slider">
+    <div class="pager">
+        <span class="active"></span>
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+</div>
+
+</body>
+</html>
